@@ -159,12 +159,12 @@ export const socialLinks = [
   {
     name: "GitHub",
     iconUrl: github,
-    link: "https://github.com/emredkyc",
+    link: "https://github.com/austen626",
   },
   {
     name: "LinkedIn",
     iconUrl: linkedin,
-    link: "https://www.linkedin.com/in/burak-emre-dokuyucu",
+    link: "https://www.linkedin.com/in/austen-daniel-anop",
   },
 ];
 
