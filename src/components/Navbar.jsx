@@ -1,4 +1,5 @@
-import { NavLink } from "react-router-dom"
+import {Link, NavLink} from "react-router-dom"
+import resume from '../assets/resume.pdf'
 
 const Navbar = () => {
   return (
@@ -13,6 +14,9 @@ const Navbar = () => {
             <NavLink to ="/projects" className={({isActive}) => isActive ? 'text-blue-500' : 'text-black'}>
                 Projects
             </NavLink>
+            <a href={resume} className='text-black'>
+                Resume
+            </a>
         </nav>
     </header>
   )
